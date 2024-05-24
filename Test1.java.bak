@@ -23,13 +23,5 @@ class Test1
 		}
 		
 		System.out.println(map);
-		
-	Set<Map.Entry<Character,Integer>> set=map.entrySet();
-	for(Map.Entry<Character,Integer> em :set)
-	{
-		if(em.getValue()>1) {
-			System.out.println(em.getKey());
-		}
-	}
 	}
 }
